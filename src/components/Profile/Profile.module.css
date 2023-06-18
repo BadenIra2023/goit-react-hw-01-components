@@ -1,0 +1,62 @@
+.profile {
+    padding: 40px;
+}
+
+.userCard {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 10px #b4b3b3;
+    background-color: rgb(230, 231, 234);
+}
+
+.avatar {
+    width: 200px;
+}
+
+.name {
+    font-size: x-large;
+    font-weight: 500;
+    color: black;
+    margin: 16px 0;
+}
+
+.descrText {
+    font-size: large;
+    font-weight: 500;
+    color: rgb(138, 155, 170);
+}
+
+.stats {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 242, 249);
+    width: 100%;
+    justify-content: space-around;
+}
+
+.statsItem {
+    width: 120px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    padding: 8px;
+    border: 1px solid #c1d6e9;
+}
+
+.label {
+    font-weight: 500;
+    color: rgb(158, 176, 193);
+}
+
+.quantity {
+    font-size: x-large;
+    font-weight: 500;
+    color: #394550;
+}

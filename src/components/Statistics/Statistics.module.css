@@ -1,0 +1,28 @@
+li {
+    list-style-type: none;
+}
+.statistics{
+margin: 0 auto;
+padding-top: 30px;
+width: 300px;
+align-items: center;
+text-align: center;
+box-shadow: 0 0 10px #b4b3b3;
+background-color: rgb(230, 231, 234);
+}
+.title{
+font-size: large;
+}
+.statlist{
+padding: 0;
+display: flex;
+justify-content: space-between;
+}
+.item {
+padding: 8px;
+border: 'none'
+}
+.label, .percentage{
+font-size: large;
+color: rgb(230, 231, 234);
+}

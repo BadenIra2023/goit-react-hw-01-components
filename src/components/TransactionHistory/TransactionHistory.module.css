@@ -1,0 +1,21 @@
+.transactionhistory{
+    margin: 0 auto;
+    width: 320px;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0 0 10px #b4b3b3;
+    background-color: rgb(230, 231, 234);
+    
+}
+.tread {
+background-color: aqua;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 2px solid white;
+}
+.amount{
+    text-align: center;
+}
